@@ -1,0 +1,15 @@
+num_str = input("Input rods:")
+num_flt = float(num_str)
+num_mtr = num_flt*5.0292
+num_mile = num_mtr/1609.34
+print("You input " + num_str + " rods")
+print("Conversions")
+print("Meters: " + str(round(num_flt*5.0292,3)))
+print("distance in furlongs is")
+print(round(num_flt/40,3))
+print("distance in miles is")
+print(round(num_mtr/1609.34,3))
+print("distance in feet is")
+print(round(num_mtr/.3048,3))
+print("time to walk " + num_str + " rod/s is")
+print(round((num_mile*60)/3.1,3))
